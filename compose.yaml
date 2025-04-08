@@ -1,0 +1,26 @@
+﻿services:
+  conference-db:
+    build:
+      context: ./ConferenceDB # Adjusted build context
+      dockerfile: Dockerfile # Dockerfile for the database
+    container_name: conference-db
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Linuspenis69"
+      MSSQL_PID: "Express"
+    ports:
+        - "1433:1433"
+        - "1400:1433"
+    volumes:
+      - db_data:/var/opt/mssql
+      - ./logs:/var/opt/mssql/log # Optional: To access logs
+    restart: always # Automatically restart on failure
+    networks:
+        - conference-network
+          
+networks:
+    conference-network:
+      driver: bridge
+        
+volumes:
+  db_data:

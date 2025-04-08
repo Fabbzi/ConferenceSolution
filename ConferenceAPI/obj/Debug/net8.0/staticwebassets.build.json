@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "7WgkH5zf8Amo4Nhjh8KGrTucJBcAhf0KCMlsQoqIEG4=",
+  "Source": "ConferenceAPI",
+  "BasePath": "_content/ConferenceAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

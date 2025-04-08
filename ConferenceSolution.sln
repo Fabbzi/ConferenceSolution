@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferenceAPI", "ConferenceAPI\ConferenceAPI.csproj", "{A5337D33-89E2-489C-B3CF-177E979996D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConferenceDB", "ConferenceDB", "{DE6084C1-1401-40EB-BCEE-F95172B2891C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Desktop\init-database.sql = ..\..\Desktop\init-database.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5337D33-89E2-489C-B3CF-177E979996D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5337D33-89E2-489C-B3CF-177E979996D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5337D33-89E2-489C-B3CF-177E979996D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5337D33-89E2-489C-B3CF-177E979996D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D87DF71A-F9CA-42BF-B52E-C1538DFED2F4}
+	EndGlobalSection
+EndGlobal
